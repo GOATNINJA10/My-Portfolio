@@ -7,10 +7,12 @@ import ExperienceSection from './sections/ExperienceSection.jsx'
 import TechStack from './sections/TechStack.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './sections/Footer.jsx'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const App = () => {
     return (
         <>
+            <SpeedInsights />
             <NavBar />
             <Hero />
             <ShowcaseSection />
