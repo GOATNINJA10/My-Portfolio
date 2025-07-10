@@ -7,7 +7,7 @@ import ExperienceSection from './sections/ExperienceSection.jsx'
 import TechStack from './sections/TechStack.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './sections/Footer.jsx'
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const App = () => {
     return (
